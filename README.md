@@ -15,7 +15,7 @@
    
 <h2 align="center" id="Usage">Usage</h2>
 <p align="center">You can access my project, Tech Forum, by simply clicking on this highlighted text.</p>
-<p align="center"><a href="" target="_blank">Here</a></p>
+<p align="center"><a href="https://still-cove-86406.herokuapp.com/" target="_blank">Here</a></p>
 
 <h2 align="center">Screenshots</h2>
 
