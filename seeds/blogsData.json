@@ -1,0 +1,14 @@
+[
+   {
+    "title": "Tiernary",
+    "description": "A conditional operator that allows the user to swap out an if statement by using ? true : false"
+   },
+   {
+    "title": "What does SQL stand for?",
+    "description": "Structured Query Language"
+   },
+   {
+    "title": "Handlebars",
+    "description": "Handlebars is amazing! It allows me to create reuseable webpage templates"
+   }
+]

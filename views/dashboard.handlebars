@@ -1,0 +1,17 @@
+{{#with users as |users|}}
+  {{#each users.projects as |project|}}
+  <a href="/edit/{{project.id}}">
+    <section class="dashboard_blog">
+      <div class="title">
+        <h3>{{project.title}}</h3>
+        <h4>{{format_date project.date_created}}</h4>
+      </div>
+      <h4 class="content">{{project.description}}</h4>
+    </section>
+  </a>  
+  {{/each}}
+{{/with}}
+
+<div class="newPost_btn">
+  <a href="/create"><button>New Post</button></a>
+</div>

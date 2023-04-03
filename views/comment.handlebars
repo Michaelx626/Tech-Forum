@@ -1,0 +1,35 @@
+{{#with post}}
+<section class="blog_container">
+  <div class="title">
+    <h3>{{title}}</h3>
+    <h4>Posted by
+      {{trim_name user.username}}
+      on
+      {{format_date date_created}}</h4>
+  </div>
+  <h4 class="content">{{description}}</h4>
+</section>
+{{/with}}
+
+{{#each comments as |comment|}}
+<section class="blog_container">
+  <div class="title">
+    <h4>Comments:</h4>
+    <h4>Commented by {{trim_name comment.user.username}} on {{format_date comment.date_created}}</h4>
+  </div>
+  <h4 class="content">{{comment.body}}</h4>
+</section>
+{{/each}}
+
+<section class="createComment_container">
+  <div class="title">
+    <h3>Create New Post</h3>
+  </div>
+  <form class="comment-form">
+    <h4>Comment</h4>
+    <input type="text" class="comment_input"/>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<script src="/js/comment.js"></script>

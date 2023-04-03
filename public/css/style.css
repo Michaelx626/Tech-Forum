@@ -1,0 +1,121 @@
+:root{
+    --bg: rgb(32,17,26);
+    --lightgreen: rgb(220,233,213);
+    --shadow: rgb(167,167,167);
+    --lightbrown: rgb(102,102,102);
+    --lightwhite: rgb(230,228,244);
+}
+
+body{
+    background-color: var(--lightgreen);
+}
+
+header{
+    margin-bottom: 50px;
+    background-color: var(--bg);
+    padding-bottom: 50px;
+}
+
+.header_container{
+    background-color: var(--lightgreen);
+    color: var(--bg);
+    border: 1px solid var(--lightgreen);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    width: 20%;
+    margin-left: 10px;
+    box-shadow: 4px 4px var(--shadow);
+}
+
+header a{
+    margin: 10px;
+    font-size: 150%;
+    color: var(--lightgreen);
+}
+
+a{
+    text-decoration: none;
+}
+
+.blog_container,
+.dashboard_blog{
+   border: 2px solid var(--bg);
+   margin-bottom: 30px;
+}
+
+.title{
+    display: flex;
+    border: 2px solid var(--bg);
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    background-color: var(--bg);
+    color: var(--lightgreen);
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    color: var(--bg);
+}
+
+.login-form,
+.signup-form,
+.signUp_text,
+.logIn_text,
+.create-form,
+.comment-form{
+    padding: 10px;
+}
+
+.login-form input,
+.signup-form input,
+.create-form input,
+.comment-form input,
+.edit-form input{
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+.login_container,
+.signup_container,
+.createPost_container,
+.createComment_container,
+.updateBlog_container{
+    border: 2px solid var(--bg);
+}
+
+.login_container h2,
+.signup_container h2{
+    display: flex;
+    border: 2px solid var(--bg);
+    justify-content: space-between;
+    padding: 10px 0px 10px 10px;
+    background-color: var(--bg);
+    color: var(--lightgreen);
+    margin: 0;
+}
+
+.login-form button,
+.signup-form button,
+.create-form button,
+.comment-form button,
+.edit-form button{
+    padding: 10px 0px 10px 0px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: var(--lightbrown);
+    color: var(--lightwhite);
+    border-radius: 5px;
+}  
+
+.newPost_btn{
+    display:flex;
+    justify-content: center;
+}
+
+.newPost_btn button{
+    padding: 10px;
+    border-radius: 5px;
+}
